@@ -29,9 +29,9 @@ class GameSprite(pygame.sprite.Sprite):
     def reset(self, window:pygame.Surface):
         win.blit(self.image, self.rect)
 
-player = GameSprite("hero.png",(50,50),(50,HEIGHT-150),5)
-enemy = GameSprite("cyborg.png",(50,50),(WIDTH-150,HEIGHT//2),5)
-gold = GameSprite("treasure.png",(50,50),(WIDTH-150,HEIGHT-150),5)
+player = GameSprite("hero.png",(70,60),(50,HEIGHT-150),5)
+enemy = GameSprite("cyborg.png",(60,50),(WIDTH-150,HEIGHT//2),5)
+gold = GameSprite("treasure.png",(60,50),(WIDTH-150,HEIGHT-150),5)
 
 
 game = True
